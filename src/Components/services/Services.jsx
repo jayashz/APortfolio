@@ -18,13 +18,13 @@ const Services = () => {
             </a>
         </div>
         <div className='services-right'>
-            <div style={{left:'10rem'}}>
+            <div style={{left:'13rem'}}>
             <Card img={HeartEmoji} heading={'Design'} detail={'Figma, Sketch and Photoshop'}/>
             </div>
-            <div style={{top:'14rem', left:'-4rem'}}>
+            <div style={{top:'14rem', left:'-1rem'}}>
                 <Card img={Glasses} heading={'Developer'} detail={'HTML, CSS, JS and React'}></Card>
             </div>
-            <div style={{top:'19rem',left:'12rem'}}>
+            <div style={{top:'19rem',left:'15rem'}}>
                 <Card img={HumbleEmoji} heading={'UI/UX'} detail={"Have a decent skill of UI/UX"}/>
             </div>
         <div className='blur service-blur-2' style={{background:"#C1f5FF"}}></div>

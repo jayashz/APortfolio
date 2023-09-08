@@ -1,9 +1,9 @@
 .card{
     display: flex;
     flex-direction: column;
-    width: 10rem;
-    height: 13rem;
-    /* gap: 1rem; */
+    width: 12rem;
+    height: 16rem;
+    gap: 1rem;
     position: absolute;
     text-align: center;
     background: rgba(255, 255, 255, 0.26);
@@ -17,8 +17,8 @@
     font-size: 16px;
 }
 .card img{
-    transform: scale(0.6);
-    margin-bottom: -2rem;
+    transform: scale(0.55);
+    margin-bottom: -2.5rem;
 }
 .card-button{
 

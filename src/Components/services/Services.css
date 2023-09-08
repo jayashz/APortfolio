@@ -38,11 +38,11 @@
 }
 
 .service-blur-2{
-
-    left: -30rem;
+    position: absolute;
+    left: -35rem;
     top: 10rem;
 }
 .service-blur-1{
     top: 0rem;
-    left: 20rem;
+    left: 24rem;
 }

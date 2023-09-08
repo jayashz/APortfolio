@@ -1,8 +1,9 @@
 
 import './App.css';
-import NavBar from './Navbar/Navbar';
-import Intro from './Intro/Intro';
-import Services from './services/Services';
+import NavBar from './Components/Navbar/Navbar';
+import Intro from './Components/Intro/Intro';
+import Services from './Components/services/Services';
+import Experiences from './Components/Experiences/Experiences';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <NavBar />
       <Intro />
       <Services />
+      <Experiences />
     </div>
   );
 }

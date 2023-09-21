@@ -1,0 +1,36 @@
+.portfolio{
+    padding: 0 3rem;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    flex-direction: column; 
+}
+.portfolio>:nth-child(1){
+    columns: var(--black);
+    font-size: 2rem;
+    font-weight: bold;
+}
+.portfolio>:nth-child(2){
+    columns: var(--orange);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.portfolio .swiper{
+
+    overflow: visible!important;
+}
+.portfolio-slider{
+    margin-top: 3rem;
+    width: 110%;
+}
+.portfolio-slider .swiper-slider{
+    width: 20rem;
+
+}
+.portfolio img{
+
+    width: 19rem;
+    filter: drop-shadow(-12px 15px 13px rgba(0 0 0 0.25));
+    border-radius: 19px;
+}
